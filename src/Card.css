@@ -1,0 +1,47 @@
+#root{
+
+    --purple : #7d5ba6;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+
+
+.inner-card {
+
+
+    max-width: 300px;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+   background-color: #dfd9e2;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.card{
+    padding: 3rem;
+    border-radius:10px;
+    border: 2px solid #28ab72;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    background-color: #2ab87a;
+
+}
+
+img{
+    max-width: 300px;
+    padding: 2rem;
+}
